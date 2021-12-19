@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "twin": "yarn add @emotion/react @emotion/styled twin.macro && yarn add -D @emotion/babel-plugin babel-plugin-macros"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "next": "latest",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "twin.macro": "^2.8.1"
+  },
+  "devDependencies": {
+    "@emotion/babel-plugin": "^11.3.0",
+    "autoprefixer": "^10.2.6",
+    "babel-plugin-macros": "^3.1.0",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
