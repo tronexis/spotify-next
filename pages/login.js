@@ -13,7 +13,9 @@ const Login = (_) => {
           <Button
             key={key}
             color="primary"
-            onClick={() => signIn(provider.id, { callbackUrl: "/" })}
+            onClick={() =>
+              signIn(provider.id, { callbackUrl: './../' })
+            }
           >
             Login with {provider.name}
           </Button>
