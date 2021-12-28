@@ -4,14 +4,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "twin": "yarn add @emotion/react @emotion/styled twin.macro && yarn add -D @emotion/babel-plugin babel-plugin-macros"
+    "twin": "yarn add @emotion/react @emotion/styled twin.macro && yarn add -D @emotion/babel-plugin babel-plugin-macros",
+    "nextauth": "(if not exist pages\\api\\auth md pages\\api\\auth) && (type NUL > pages\\api\\auth\\[...nextauth].js) && yarn add next-auth@beta",
+    "tw:scrollbar-hide": "yarn add tailwind-scrollbar-hide"
   },
   "dependencies": {
     "@emotion/react": "^11.7.0",
     "@emotion/styled": "^11.6.0",
+    "lodash": "^4.17.21",
     "next": "latest",
+    "next-auth": "^4.0.0-beta.7",
+    "parse-ms": "^3.0.0",
+    "pretty-ms": "^7.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "recoil": "^0.5.2",
+    "spotify-web-api-js": "^1.5.2",
+    "spotify-web-api-node": "^5.0.2",
+    "tailwind-scrollbar-hide": "^1.1.7",
     "twin.macro": "^2.8.1"
   },
   "devDependencies": {
