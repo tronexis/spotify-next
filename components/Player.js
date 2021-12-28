@@ -77,10 +77,10 @@ const Player = (_) => {
         <Cover
           size={14}
           src={trackInfo?.album?.images?.[0]?.url}
-          alt={trackInfo?.name}
+          alt={trackInfo?.name || 'No Track'}
         />
         <TrackInfo>
-          <TrackName>{trackInfo?.name}</TrackName>
+          <TrackName>{trackInfo?.name || 'Not Playing'}</TrackName>
           <TrackArtists>
             {trackInfo?.artists.map((artist) => artist.name).join(", ")}
           </TrackArtists>
